@@ -1,0 +1,27 @@
+{
+  "projectPath": ":",
+  "classpaths": {
+    "test": [
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\build\\classes\\java\\test",
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\build\\resources\\test",
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\out\\production\\Detominer.test",
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\out\\test\\classes",
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\out\\test\\resources"
+    ],
+    "client": [
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\build\\classes\\java\\client",
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\build\\resources\\client",
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\out\\production\\Detominer.client",
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\out\\client\\classes",
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\out\\client\\resources"
+    ],
+    "main": [
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\build\\classes\\java\\main",
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\build\\resources\\main",
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\build\\devlibs\\Detominer-4.0-dev.jar",
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\out\\production\\Detominer.main",
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\out\\production\\classes",
+      "C:\\Users\\azale\\Documents\\IntelliJ IDEA\\Minecraft\\Detominer\\out\\production\\resources"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": {
+    "text": "Detonate",
+    "color": "#ff0070"
+  },
+  "supported_items": "#detominer:supported_tools",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 15,
+  "slots": [
+    "mainhand"
+  ]
+}

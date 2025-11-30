@@ -1,0 +1,92 @@
+{
+  "disable_detonate_when_sneaking": true,
+  "block_break": {
+    "detonate_level_1": {
+      "x": 3,
+      "y": 3,
+      "z": 1
+    },
+    "detonate_level_2": {
+      "x": 3,
+      "y": 3,
+      "z": 2
+    },
+    "detonate_level_3": {
+      "x": 3,
+      "y": 3,
+      "z": 3
+    }
+  },
+  "allowed_blocks": {
+    "#minecraft:pickaxes": [
+      "minecraft:stone",
+      "minecraft:andesite",
+      "minecraft:granite",
+      "minecraft:diorite",
+      "minecraft:deepslate",
+      "minecraft:tuff",
+      "minecraft:netherrack",
+      "minecraft:blackstone",
+      "minecraft:crimson_nylium",
+      "minecraft:warped_nylium",
+      "minecraft:basalt",
+      "minecraft:end_stone",
+      "minecraft:obsidian",
+      "minecraft:coal_ore",
+      "minecraft:deepslate_coal_ore",
+      "minecraft:iron_ore",
+      "minecraft:deepslate_iron_ore",
+      "minecraft:copper_ore",
+      "minecraft:deepslate_copper_ore",
+      "minecraft:gold_ore",
+      "minecraft:deepslate_gold_ore",
+      "minecraft:redstone_ore",
+      "minecraft:deepslate_redstone_ore",
+      "minecraft:emerald_ore",
+      "minecraft:deepslate_emerald_ore",
+      "minecraft:lapis_ore",
+      "minecraft:deepslate_lapis_ore",
+      "minecraft:diamond_ore",
+      "minecraft:deepslate_diamond_ore",
+      "minecraft:nether_gold_ore",
+      "minecraft:nether_quartz_ore",
+      "minecraft:sandstone",
+      "minecraft:red_sandstone",
+      "minecraft:dripstone_block",
+      "minecraft:raw_iron_block",
+      "minecraft:raw_gold_block",
+      "minecraft:raw_copper_block",
+      "minecraft:terracotta",
+      "minecraft:red_terracotta",
+      "minecraft:orange_terracotta",
+      "minecraft:yellow_terracotta",
+      "minecraft:brown_terracotta",
+      "minecraft:white_terracotta",
+      "minecraft:light_gray_terracotta"
+    ],
+    "#minecraft:axes": [
+      ""
+    ],
+    "#minecraft:shovels": [
+      "minecraft:dirt",
+      "minecraft:grass_block",
+      "minecraft:gravel",
+      "minecraft:sand",
+      "minecraft:clay",
+      "minecraft:coarse_dirt",
+      "minecraft:mud",
+      "minecraft:mycelium",
+      "minecraft:podzol",
+      "minecraft:red_sand",
+      "minecraft:snow_block",
+      "minecraft:soul_sand",
+      "minecraft:soul_soil"
+    ],
+    "#minecraft:hoes": [
+      ""
+    ],
+    "minecraft:shears": [
+      ""
+    ]
+  }
+}
