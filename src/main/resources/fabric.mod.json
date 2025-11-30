@@ -7,8 +7,8 @@
   "authors": ["sneeryazalee"],
   "contact": {
     "homepage": "https://modrinth.com/datapack/detominer",
-    "sources": "",
-    "issues": ""
+    "sources": "https://github.com/SneeryAzalee/Detominer",
+    "issues": "https://github.com/SneeryAzalee/Detominer/issues"
   },
   "license": "MIT",
   "icon": "assets/detominer/icon.png",
