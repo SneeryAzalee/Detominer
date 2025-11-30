@@ -1,5 +1,5 @@
-[15:25:43] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.10 with Fabric Loader 0.18.1
-[15:25:43] [main/INFO] (FabricLoader) Loading 43 mods:
+[11:51:15] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.10 with Fabric Loader 0.18.1
+[11:51:15] [main/INFO] (FabricLoader) Loading 43 mods:
 	- detominer 4.0
 	- fabric-api 0.138.3+1.21.10
 	- fabric-api-base 1.0.0+14b92d896f
@@ -43,391 +43,70 @@
 	- java 21
 	- minecraft 1.21.10
 	- mixinextras 0.5.0
-[15:25:43] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/azale/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[15:25:43] [main/INFO] (FabricLoader/Mixin) Attempting to load Hot-Swap agent
-[15:25:44] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[15:25:44] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[15:25:45] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[15:26:03] [main/INFO] (detominer) [Detominer v4.0] Mod initializing...
-[15:26:03] [main/INFO] (detominer) [Detominer v4.0] Config file created at: C:\Users\azale\Documents\IntelliJ IDEA\Minecraft\Detominer\run\config\detominer.json
-[15:26:05] [main/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[15:26:11] [main/INFO] (Minecraft) Loaded 1461 recipes
-[15:26:11] [main/INFO] (Minecraft) Loaded 1574 advancements
-[15:26:11] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 65 new biomes in 2.571 ms
-[15:26:11] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.21.10
-[15:26:11] [Server thread/INFO] (Minecraft) Loading properties
-[15:26:11] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
-[15:26:11] [Server thread/INFO] (Minecraft) Generating keypair
-[15:26:12] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
-[15:26:12] [Server thread/INFO] (Minecraft) Using default channel type
-[15:26:12] [Server thread/INFO] (Minecraft) Preparing level "world"
-[15:26:13] [Server thread/INFO] (Minecraft) Loading 0 persistent chunks...
-[15:26:13] [Server thread/INFO] (Minecraft) Preparing spawn area: 100%
-[15:26:13] [Server thread/INFO] (Minecraft) Time elapsed: 165 ms
-[15:26:13] [Server thread/INFO] (Minecraft) Done (1.129s)! For help, type "help"
-[15:27:13] [Server thread/INFO] (Minecraft) Server empty for 60 seconds, pausing
-[15:32:09] [User Authenticator #1/INFO] (Minecraft) UUID of player Sneery1101 is 15f37b8f-f012-40f0-95af-a9c1481282dc
-[15:32:12] [Server thread/INFO] (Minecraft) Sneery1101[/127.0.0.1:54734] logged in with entity id 65 at (-24.488612654923813, 13.880064353295507, -732.6896488779126)
-[15:32:12] [Server thread/INFO] (Minecraft) Sneery1101 joined the game
-[15:32:15] [Server thread/WARN] (Minecraft) Can't keep up! Is the server overloaded? Running 2094ms or 41 ticks behind
-[15:32:51] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Spectator Mode]
-[15:34:13] [Server thread/WARN] (Minecraft) Sneery1101 moved too quickly! 8.82215461903657,0.0,5.771768016368696
-[15:35:03] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[15:35:50] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Spectator Mode]
-[15:36:19] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[15:36:25] [Server thread/INFO] (Minecraft) [Sneery1101: Set spawn point to -68, 9, -874 [0.0, 0.0] in minecraft:overworld for Sneery1101]
-[15:36:30] [Server thread/INFO] (Minecraft) [Sneery1101: Gamerule keepInventory is now set to: true]
-[15:37:56] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Spectator Mode]
-[15:38:01] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[15:38:11] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 64 [Diamond Ore] to Sneery1101]
-[15:38:46] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Spectator Mode]
-[15:38:47] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[15:38:54] [Server thread/INFO] (Minecraft) [Sneery1101: Changed the block at -69, 9, -870]
-[15:39:05] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Spectator Mode]
-[15:39:06] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[15:39:08] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 64 [Diamond Ore] to Sneery1101]
-[15:41:37] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[15:41:37] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[15:41:46] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 64 [Diamond Ore] to Sneery1101]
-[16:02:06] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[16:02:06] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[16:12:16] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[16:12:16] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[16:12:28] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[16:12:28] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[16:12:44] [Server thread/INFO] (Minecraft) <Sneery1101> t
-[16:13:13] [Server thread/INFO] (Minecraft) <Sneery1101> t
-[16:16:26] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[16:16:26] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[16:17:19] [Server thread/INFO] (Minecraft) [Sneery1101: Applied enchantment Unbreaking III to Sneery1101's item]
-[16:17:54] [Server thread/INFO] (Minecraft) [Sneery1101: Applied enchantment Unbreaking III to Sneery1101's item]
-[16:18:00] [Server thread/INFO] (Minecraft) [Sneery1101: Applied enchantment Unbreaking III to Sneery1101's item]
-[16:18:05] [Server thread/INFO] (Minecraft) [Sneery1101: Applied enchantment Unbreaking III to Sneery1101's item]
-[16:18:11] [Server thread/INFO] (Minecraft) [Sneery1101: Applied enchantment Unbreaking III to Sneery1101's item]
-[16:18:35] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[16:18:35] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[16:19:11] [Server thread/INFO] (Minecraft) [Sneery1101: Changed the block at -70, 9, -876]
-[16:20:49] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[16:20:49] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[16:21:51] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[16:21:51] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[16:22:55] [Server thread/INFO] (Minecraft) [Sneery1101: Changed the block at -69, 9, -876]
-[16:23:06] [Server thread/INFO] (Minecraft) [Sneery1101: Changed the block at -69, 9, -877]
-[16:23:29] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[16:23:29] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[16:24:06] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[16:24:06] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[16:24:21] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Spectator Mode]
-[16:24:22] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[16:24:24] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[16:24:27] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[16:26:01] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[16:26:05] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[16:26:12] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 64 [Diamond Ore] to Sneery1101]
-[16:26:21] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 64 [Diamond Ore] to Sneery1101]
-[16:28:33] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[16:28:33] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[16:29:15] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[16:29:36] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[16:30:42] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[16:30:57] [Server thread/INFO] (Minecraft) [Sneery1101: Changed the block at -66, 9, -873]
-[16:31:02] [Server thread/INFO] (Minecraft) [Sneery1101: Changed the block at -66, 9, -872]
-[16:32:11] [Server thread/INFO] (Minecraft) [Sneery1101: Changed the block at -66, 9, -872]
-[16:32:16] [Server thread/INFO] (Minecraft) [Sneery1101: Changed the block at -66, 9, -873]
-[16:32:18] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[16:32:50] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[16:32:56] [Server thread/INFO] (Minecraft) [Sneery1101: Changed the block at -65, 9, -873]
-[16:33:02] [Server thread/INFO] (Minecraft) [Sneery1101: Applied enchantment Efficiency V to Sneery1101's item]
-[16:33:21] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[16:35:26] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[16:35:33] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[16:35:36] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[16:35:41] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[16:35:58] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[16:35:59] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[16:36:03] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[16:36:20] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[16:37:07] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[16:41:20] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[16:41:20] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[16:47:37] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[16:47:37] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[16:47:54] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[16:47:59] [Server thread/INFO] (Minecraft) [Sneery1101: Applied enchantment Efficiency V to Sneery1101's item]
-[16:48:20] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[16:49:02] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[16:49:02] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[16:49:10] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[16:56:05] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[16:56:05] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[16:56:16] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[16:56:46] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[16:58:11] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[16:58:27] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[16:58:52] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[16:59:25] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[16:59:32] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[16:59:35] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[16:59:49] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[16:59:54] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 64 [Diamond Ore] to Sneery1101]
-[17:00:51] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[17:00:58] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[17:01:06] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[17:01:14] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[17:01:52] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[17:01:58] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[17:02:03] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[17:02:10] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[17:02:15] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[17:02:23] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[17:02:25] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[17:02:30] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[17:08:24] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[17:08:24] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[17:10:17] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:12:52] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[17:12:52] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[17:12:59] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:13:15] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:14:17] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[17:14:17] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[17:14:22] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:15:13] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:15:27] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:15:58] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:16:29] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:16:45] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:16:53] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:17:04] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:18:48] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[17:18:48] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[17:18:51] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:18:58] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:19:02] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:19:08] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:19:15] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[17:19:17] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[17:19:20] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[17:19:22] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:19:27] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:19:28] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[17:19:39] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:19:48] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[17:19:50] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[17:19:52] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:25:50] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[17:25:50] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[17:26:01] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[17:26:01] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[17:26:06] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1075 item(s) from player Sneery1101]
-[17:26:07] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:26:18] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1 item(s) from player Sneery1101]
-[17:26:21] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:26:50] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:26:53] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:26:54] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[17:27:14] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[17:27:44] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[17:27:48] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[17:27:49] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:37:48] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[17:37:48] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[17:37:51] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[17:37:54] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 5 item(s) from player Sneery1101]
-[17:37:56] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:37:56] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[17:38:09] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:38:28] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:38:59] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:43:31] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[17:43:31] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[17:43:37] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 130 item(s) from player Sneery1101]
-[17:43:38] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:44:26] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[17:44:26] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[17:44:31] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:44:56] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[17:44:56] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[17:45:02] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:45:29] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:45:37] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:45:44] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[17:45:49] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:01:40] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[18:01:40] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[18:01:46] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:01:59] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[18:01:59] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[18:02:17] [Server thread/INFO] (Minecraft) [Sneery1101: Changed the block at -69, 10, -868]
-[18:02:26] [Server thread/INFO] (Minecraft) [Sneery1101: Changed the block at -69, 10, -868]
-[18:03:01] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[18:03:01] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[18:03:07] [Server thread/INFO] (Minecraft) [Sneery1101: Changed the block at -69, 10, -868]
-[18:03:10] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:04:15] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[18:04:15] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[18:04:18] [Server thread/INFO] (Minecraft) [Sneery1101: Reloading!]
-[18:04:19] [Server thread/INFO] (Minecraft) Loaded 1461 recipes
-[18:04:19] [Server thread/INFO] (Minecraft) Loaded 1574 advancements
-[18:04:25] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:04:44] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 368 item(s) from player Sneery1101]
-[18:04:45] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:05:11] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 64 item(s) from player Sneery1101]
-[18:05:15] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:11:45] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[18:11:45] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[18:11:57] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[18:11:57] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[18:12:01] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1 item(s) from player Sneery1101]
-[18:12:03] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:12:09] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1 item(s) from player Sneery1101]
-[18:12:10] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:12:14] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1 item(s) from player Sneery1101]
-[18:12:16] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:12:24] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 2 item(s) from player Sneery1101]
-[18:12:26] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:12:38] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 2 item(s) from player Sneery1101]
-[18:12:39] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:15:10] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[18:15:10] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[18:15:13] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:16:03] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[18:16:03] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[18:16:06] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:16:11] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:16:16] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:16:21] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:16:28] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:18:00] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:18:17] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:18:26] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:18:38] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:18:46] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:18:54] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[18:19:01] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[18:19:07] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[18:19:13] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[18:19:15] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:20:17] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[18:20:17] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[18:20:21] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:20:36] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:20:42] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:20:47] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:20:53] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:20:57] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:21:02] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:21:06] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:21:44] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[18:21:44] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[18:21:48] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:21:55] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 102 item(s) from player Sneery1101]
-[18:21:56] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:22:03] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 2 item(s) from player Sneery1101]
-[18:22:04] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:22:09] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 2 item(s) from player Sneery1101]
-[18:22:11] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:22:16] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1 item(s) from player Sneery1101]
-[18:22:17] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:22:21] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1 item(s) from player Sneery1101]
-[18:22:24] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:22:39] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1 item(s) from player Sneery1101]
-[18:22:43] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:22:44] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
-[18:22:49] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
-[18:23:07] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Wooden Pickaxe] to Sneery1101]
-[18:23:27] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:24:27] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:25:02] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 236 item(s) from player Sneery1101]
-[18:25:05] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:26:35] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 234 item(s) from player Sneery1101]
-[18:26:37] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:27:25] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:27:41] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 236 item(s) from player Sneery1101]
-[18:27:41] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:28:13] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 19 item(s) from player Sneery1101]
-[18:28:14] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:31:09] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 9 item(s) from player Sneery1101]
-[18:31:11] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:31:17] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 2 item(s) from player Sneery1101]
-[18:31:18] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:32:41] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[18:32:41] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[18:34:34] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/Detominer
-[18:34:34] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class io/sneery/detominer/CubeBreaker
-[18:35:22] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 27 item(s) from player Sneery1101]
-[18:35:23] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:35:38] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 9 item(s) from player Sneery1101]
-[18:35:38] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:36:48] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 250 item(s) from player Sneery1101]
-[18:36:57] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:37:11] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1 item(s) from player Sneery1101]
-[18:37:14] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:37:22] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 2 item(s) from player Sneery1101]
-[18:37:23] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:37:30] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 2 item(s) from player Sneery1101]
-[18:37:32] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:37:36] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 2 item(s) from player Sneery1101]
-[18:37:37] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:37:42] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 2 item(s) from player Sneery1101]
-[18:37:44] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:37:50] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1 item(s) from player Sneery1101]
-[18:37:51] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:37:54] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1 item(s) from player Sneery1101]
-[18:37:55] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:38:05] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1 item(s) from player Sneery1101]
-[18:39:13] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:40:13] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 5 item(s) from player Sneery1101]
-[18:40:14] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:40:41] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 5 item(s) from player Sneery1101]
-[18:40:42] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:41:10] [Server thread/INFO] (Minecraft) Sneery1101 lost connection: Disconnected
-[18:41:10] [Server thread/INFO] (Minecraft) Sneery1101 left the game
-[18:42:09] [Server thread/INFO] (Minecraft) Server empty for 60 seconds, pausing
-[18:43:22] [User Authenticator #2/INFO] (Minecraft) UUID of player Sneery1101 is 15f37b8f-f012-40f0-95af-a9c1481282dc
-[18:43:23] [Server thread/INFO] (Minecraft) Sneery1101[/127.0.0.1:58378] logged in with entity id 22885 at (-71.21778129468993, 9.0, -868.5004740887966)
-[18:43:23] [Server thread/INFO] (Minecraft) Sneery1101 joined the game
-[18:43:26] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 5 item(s) from player Sneery1101]
-[18:43:34] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:43:47] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 9 item(s) from player Sneery1101]
-[18:43:48] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:43:56] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 14 item(s) from player Sneery1101]
-[18:43:57] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:44:11] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 21 item(s) from player Sneery1101]
-[18:44:12] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:44:22] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 7 item(s) from player Sneery1101]
-[18:44:23] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:44:34] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 28 item(s) from player Sneery1101]
-[18:44:35] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:44:44] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 13 item(s) from player Sneery1101]
-[18:44:46] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:45:05] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 13 item(s) from player Sneery1101]
-[18:45:05] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:45:16] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 15 item(s) from player Sneery1101]
-[18:45:17] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:46:32] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:46:49] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:46:54] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[18:47:03] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 36 item(s) from player Sneery1101]
-[19:08:18] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[19:08:25] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 5 item(s) from player Sneery1101]
-[19:08:27] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[19:08:31] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1 item(s) from player Sneery1101]
-[19:08:32] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[19:08:39] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1 item(s) from player Sneery1101]
-[19:08:42] [Server thread/INFO] (Minecraft) [Sneery1101: Gave 1 [Iron Pickaxe] to Sneery1101]
-[19:11:13] [Server thread/INFO] (Minecraft) [Sneery1101: Teleported 79 entities to -65.612353, 9.000000, -870.406955]
-[19:11:19] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 1062 item(s) from player Sneery1101]
-[19:12:02] [Server thread/INFO] (Minecraft) [Sneery1101: Stopping the server]
-[19:12:02] [Server thread/INFO] (Minecraft) Stopping server
-[19:12:02] [Server thread/INFO] (Minecraft) Saving players
-[19:12:02] [Server thread/INFO] (Minecraft) Sneery1101 lost connection: Disconnected
-[19:12:02] [Server thread/INFO] (Minecraft) Sneery1101 left the game
-[19:12:02] [Server thread/INFO] (Minecraft) Saving worlds
-[19:12:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:12:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:12:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:12:03] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:12:03] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:12:03] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:12:03] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[11:51:15] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/azale/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[11:51:15] [main/INFO] (FabricLoader/Mixin) Attempting to load Hot-Swap agent
+[11:51:15] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[11:51:15] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[11:51:16] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[11:51:26] [main/INFO] (detominer) [Detominer v4.0] Mod initializing...
+[11:51:26] [main/INFO] (detominer) [Detominer v4.0] Config file created at: C:\Users\azale\Documents\IntelliJ IDEA\Minecraft\Detominer\run\config\detominer.json
+[11:51:26] [Detominer-ConfigWatcher/INFO] (detominer) [Detominer v4.0] Starting config file watcher for: C:\Users\azale\Documents\IntelliJ IDEA\Minecraft\Detominer\run\config\detominer.json
+[11:51:26] [main/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[11:51:28] [main/INFO] (Minecraft) Loaded 1461 recipes
+[11:51:28] [main/INFO] (Minecraft) Loaded 1574 advancements
+[11:51:28] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 65 new biomes in 1.089 ms
+[11:51:28] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.21.10
+[11:51:28] [Server thread/INFO] (Minecraft) Loading properties
+[11:51:28] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
+[11:51:28] [Server thread/INFO] (Minecraft) Generating keypair
+[11:51:28] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
+[11:51:28] [Server thread/INFO] (Minecraft) Using default channel type
+[11:51:28] [Server thread/INFO] (Minecraft) Preparing level "world"
+[11:51:29] [Server thread/INFO] (Minecraft) Loading 0 persistent chunks...
+[11:51:29] [Server thread/INFO] (Minecraft) Preparing spawn area: 100%
+[11:51:29] [Server thread/INFO] (Minecraft) Time elapsed: 73 ms
+[11:51:29] [Server thread/INFO] (Minecraft) Done (0.445s)! For help, type "help"
+[11:51:52] [Detominer-ConfigWatcher/INFO] (detominer) [Detominer v4.0] Config file changed, reloading...
+[11:52:02] [User Authenticator #1/INFO] (Minecraft) UUID of player Sneery1101 is 15f37b8f-f012-40f0-95af-a9c1481282dc
+[11:52:03] [Server thread/INFO] (Minecraft) Sneery1101[/127.0.0.1:56559] logged in with entity id 91 at (-68.84036727936565, 9.0, -871.0989077474721)
+[11:52:03] [Server thread/INFO] (Minecraft) Sneery1101 joined the game
+[11:52:07] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Spectator Mode]
+[11:52:09] [Server thread/INFO] (Minecraft) Sneery1101 was killed
+[11:52:09] [Server thread/INFO] (Minecraft) [Sneery1101: Killed Sneery1101]
+[11:52:11] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
+[11:52:12] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Spectator Mode]
+[11:52:22] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
+[11:52:29] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Spectator Mode]
+[11:52:38] [Detominer-ConfigWatcher/INFO] (detominer) [Detominer v4.0] Config file changed, reloading...
+[11:52:41] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
+[11:53:05] [Detominer-ConfigWatcher/INFO] (detominer) [Detominer v4.0] Config file changed, reloading...
+[11:53:12] [Detominer-ConfigWatcher/INFO] (detominer) [Detominer v4.0] Config file changed, reloading...
+[11:53:22] [Server thread/INFO] (Minecraft) Sneery1101 was killed
+[11:53:22] [Server thread/INFO] (Minecraft) [Sneery1101: Killed Sneery1101]
+[11:53:28] [Server thread/INFO] (Minecraft) [Sneery1101: Applied effect Saturation to Sneery1101]
+[11:53:37] [Server thread/INFO] (Minecraft) [Sneery1101: Applied effect Resistance to Sneery1101]
+[11:53:40] [Server thread/INFO] (Minecraft) [Sneery1101: Applied effect Night Vision to Sneery1101]
+[11:53:46] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Spectator Mode]
+[11:53:48] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
+[11:53:49] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
+[11:54:02] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
+[11:54:50] [Detominer-ConfigWatcher/INFO] (detominer) [Detominer v4.0] Config file changed, reloading...
+[11:55:27] [Detominer-ConfigWatcher/INFO] (detominer) [Detominer v4.0] Config file changed, reloading...
+[11:56:05] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
+[11:56:08] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
+[11:56:12] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Creative Mode]
+[11:56:25] [Server thread/INFO] (Minecraft) [Sneery1101: Removed 23 item(s) from player Sneery1101]
+[11:56:27] [Server thread/INFO] (Minecraft) [Sneery1101: Set own game mode to Survival Mode]
+[11:56:29] [Server thread/INFO] (Minecraft) [Sneery1101: Stopping the server]
+[11:56:29] [Server thread/INFO] (Minecraft) Stopping server
+[11:56:29] [Server thread/INFO] (Minecraft) Saving players
+[11:56:29] [Server thread/INFO] (Minecraft) Sneery1101 lost connection: Server closed
+[11:56:29] [Server thread/INFO] (Minecraft) Sneery1101 left the game
+[11:56:29] [Server thread/INFO] (Minecraft) Saving worlds
+[11:56:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:56:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11:56:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11:56:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:56:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:56:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:56:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved

@@ -2,8 +2,10 @@ package io.sneery.detominer;
 
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -25,22 +27,34 @@ public class CubeBreaker {
             if (detonate != null && detonateEntry.map(entry -> EnchantmentHelper.getLevel(entry, tool)).orElse(0) > 0) {
                 int detonateLevel = detonateEntry.map(entry -> EnchantmentHelper.getLevel(entry, tool)).orElse(0);
 
-                if (isBlockAllowed(state.getBlock(), tool) && tool.isSuitableFor(state)) {
-                    if (ConfigManager.config.disable_detonate_when_sneaking) {
-                        if (detonateLevel > 0 && !player.isSneaking()) {
-                            breakCube(world, (ServerPlayerEntity) player, pos, detonateLevel);
-                            return false;
-                        }
-                    } else {
-                        if (detonateLevel > 0) {
-                            breakCube(world, (ServerPlayerEntity) player, pos, detonateLevel);
-                            return false;
-                        }
+                if(ConfigManager.config.only_mine_with_proper_tool)
+                {
+                    if (isBlockAllowed(state.getBlock(), tool) && tool.isSuitableFor(state)) {
+                        return mining_when_sneaking(world, player, pos, detonateLevel);
+                    }
+                } else {
+                    if (isBlockAllowed(state.getBlock(), tool)) {
+                        return mining_when_sneaking(world, player, pos, detonateLevel);
                     }
                 }
             }
             return true;
         });
+    }
+
+    private static boolean mining_when_sneaking(World world, PlayerEntity player, BlockPos pos, int detonateLevel) {
+        if (ConfigManager.config.disable_detonate_when_sneaking) {
+            if (detonateLevel > 0 && !player.isSneaking()) {
+                breakCube(world, (ServerPlayerEntity) player, pos, detonateLevel);
+                return false;
+            }
+        } else {
+            if (detonateLevel > 0) {
+                breakCube(world, (ServerPlayerEntity) player, pos, detonateLevel);
+                return false;
+            }
+        }
+        return true;
     }
 
     private static void breakCube(World world, ServerPlayerEntity player, BlockPos center, int detonateLevel) {
@@ -117,22 +131,33 @@ public class CubeBreaker {
             var block = state.getBlock();
             var tool = player.getMainHandStack();
 
-            if (isBlockAllowed(block, tool) && tool.isSuitableFor(state)) {
-                block.onBreak(world, target, state, player);
-                if (!world.isClient() && !player.isCreative()) {
-                    block.afterBreak(world, player, target, state, world.getBlockEntity(target), tool);
-                    if (tool.getMaxDamage() - tool.getDamage() > 1) {
-                        tool.damage(1, player);
-                    } else {
-                        player.sendEquipmentBreakStatus(tool.getItem(), net.minecraft.entity.EquipmentSlot.MAINHAND);
-                        player.setStackInHand(player.getActiveHand(), ItemStack.EMPTY);
-                    }
+            if(ConfigManager.config.only_mine_with_proper_tool)
+            {
+                if (isBlockAllowed(block, tool) && tool.isSuitableFor(state)) {
+                    literalMine(world, player, target, state, block, tool);
                 }
-                world.syncWorldEvent(2001, target, Block.getRawIdFromState(state));
-                world.removeBlock(target, false);
+            } else {
+                if (isBlockAllowed(block, tool)) {
+                    literalMine(world, player, target, state, block, tool);
+                }
             }
         }
         return false;
+    }
+
+    private static void literalMine(World world, ServerPlayerEntity player, BlockPos target, BlockState state, Block block, ItemStack tool) {
+        block.onBreak(world, target, state, player);
+        if (!world.isClient() && !player.isCreative()) {
+            block.afterBreak(world, player, target, state, world.getBlockEntity(target), tool);
+            if (tool.getMaxDamage() - tool.getDamage() > 1) {
+                tool.damage(1, player);
+            } else {
+                player.sendEquipmentBreakStatus(tool.getItem(), net.minecraft.entity.EquipmentSlot.MAINHAND);
+                player.setStackInHand(player.getActiveHand(), ItemStack.EMPTY);
+            }
+        }
+        world.syncWorldEvent(2001, target, Block.getRawIdFromState(state));
+        world.removeBlock(target, false);
     }
 
     private static String getToolTypeKey(ItemStack tool) {

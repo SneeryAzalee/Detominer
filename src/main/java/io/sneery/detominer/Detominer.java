@@ -15,6 +15,7 @@ public class Detominer implements ModInitializer {
         LOGGER.info("[{} v{}] Mod initializing...", MOD_NAME, MOD_VERSION);
 
         ConfigManager.loadConfig();
+        ConfigManager.startWatcher();
         CubeBreaker.register();
     }
 }

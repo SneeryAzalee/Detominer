@@ -4,6 +4,7 @@ import java.util.*;
 
 public class DetominerConfig {
     public boolean disable_detonate_when_sneaking = true;
+    public boolean only_mine_with_proper_tool = true;
     public BlockBreak block_break = new BlockBreak();
     public Map<String, List<String>> allowed_blocks = new LinkedHashMap<>();
 
