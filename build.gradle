@@ -28,8 +28,10 @@ fabricApi {
 }
 
 repositories {
-    // Add repositories to retrieve dependencies from here.
-    // You can also add repositories in the top level build.gradle file.
+    maven {
+        name = "Terraformers"
+        url = "https://maven.terraformersmc.com/"
+    }
 }
 
 dependencies {
@@ -38,6 +40,7 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    modImplementation("com.terraformersmc:modmenu:${project.modmenu_version}")
 
     implementation "com.google.code.gson:gson:2.13.2"
 }

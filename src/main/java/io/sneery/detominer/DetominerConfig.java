@@ -53,7 +53,8 @@ public class DetominerConfig {
                 "minecraft:yellow_terracotta",
                 "minecraft:brown_terracotta",
                 "minecraft:white_terracotta",
-                "minecraft:light_gray_terracotta"
+                "minecraft:light_gray_terracotta",
+                "minecraft:magma_block"
         ));
         allowed_blocks.put("#minecraft:axes", Arrays.asList(
                 ""

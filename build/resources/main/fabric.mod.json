@@ -10,6 +10,14 @@
     "sources": "https://github.com/SneeryAzalee/Detominer",
     "issues": "https://github.com/SneeryAzalee/Detominer/issues"
   },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/YNXn73MPns"
+      },
+      "update_checker": true
+    }
+  },
   "license": "MIT",
   "icon": "assets/detominer/icon.png",
   "environment": "*",
@@ -19,6 +27,9 @@
     ],
     "client": [
       "io.sneery.detominer.client.DetominerClient"
+    ],
+    "modmenu": [
+      "io.sneery.detominer.client.ModMenuIntegration"
     ],
     "main": [
       "io.sneery.detominer.Detominer"
