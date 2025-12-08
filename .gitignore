@@ -406,6 +406,7 @@ run/usercache.json
 run/whitelist.json
 run/banned-ips.json
 run/logs/latest.log
+run/world/
 run/world/level.dat
 run/server.properties
 run/world/session.lock
@@ -913,4 +914,5 @@ build/tmp/compileJava/compileTransaction/stash-dir/DetominerConfig.class.uniqueI
 build/tmp/compileJava/compileTransaction/stash-dir/DetominerConfig$Level.class.uniqueId3
 build/tmp/compileClientJava/compileTransaction/stash-dir/ModMenuIntegration.class.uniqueId0
 build/tmp/compileJava/compileTransaction/stash-dir/DetominerConfig$BlockBreak.class.uniqueId1
+run/world/playerdata/15f37b8f-f012-40f0-95af-a9c1481282dc.dat_old
 run/world/playerdata/15f37b8f-f012-40f0-95af-a9c1481282dc.dat_old
