@@ -15,7 +15,7 @@ public class ModMenuIntegration implements ModMenuApi {
         return parent -> {
             File configFile = new File("config/detominer.json");
             try {
-                Util.getOperatingSystem().open(configFile);
+                Util.getPlatform().openFile(configFile);
             } catch (Exception e) {
                 LOGGER.severe("Failed to open config file: " + e.getMessage());
             }

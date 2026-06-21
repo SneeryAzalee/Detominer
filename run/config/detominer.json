@@ -13,9 +13,9 @@
       "z": 2
     },
     "detonate_level_3": {
-      "x": 3,
-      "y": 3,
-      "z": 3
+      "x": 10,
+      "y": 10,
+      "z": 100
     }
   },
   "allowed_blocks": {
